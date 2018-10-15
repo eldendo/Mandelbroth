@@ -9,11 +9,11 @@ uses ptcGraph, ptcCrt;
 const itter = 25;
 
 type complex = 	record 
-					re,im: real
-				end;
+			re,im: real
+		end;
 				
-var TL: complex = (re:-2.2; im: 1.2);
-	BR: complex = (re: 1.0; im: -1.2);
+var 	TL: complex = (re:-2.2; im: 1.2); //TopLeft
+	BR: complex = (re: 1.0; im: -1.2);//BottomRight
 	
 					
 function sq(x: real): real;
