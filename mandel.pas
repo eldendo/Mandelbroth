@@ -8,7 +8,7 @@ uses ptcGraph, ptcCrt;
 
 const itter = 25;
 
-type complex = 	record 
+type complex =	record 
 			re,im: real
 		end;
 				
